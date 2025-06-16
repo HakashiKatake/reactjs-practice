@@ -1,13 +1,12 @@
-import Youtube from './Youtube.jsx';
+import React from 'react';
 
 function App() {
   
+
   return (
     <>
-    <h1>Vite react app</h1>
-    <Youtube />
+     <h1>yooo</h1>
     </>
-    
   )
 }
 

@@ -12,6 +12,15 @@ function App() {
     } else {
       counter = counter + 1;
       setCounter(counter)
+      // setCounter(counter)
+      // setCounter(counter) in this it will not work because it will not update the state immediately
+      // setCounter(counter)
+
+
+      // setCounter((prevCounter) => prevCounter + 1);
+      // setCounter((prevCounter) => prevCounter + 1); 
+      // setCounter((prevCounter) => prevCounter + 1); in this it will work because it will update the state immediately
+      
       console.log(counter);
     }
     
